@@ -13,6 +13,7 @@ En el ejemplo anterior, la máxima distancia que recorre el reno es 2. Va a la d
 
 Crea una función maxDistance que reciba la cadena de texto movements y devuelva la máxima distancia que puede recorrer el reno en cualquier dirección:
 
+```
 const movements = '>>*<'
 const result = maxDistance(movements)
 console.log(result) // -> 2
@@ -24,5 +25,6 @@ console.log(result2) // -> 2
 const movements3 = '>***>'
 const result3 = maxDistance(movements3)
 console.log(result3) // -> 5
+```
 
 Ten en cuenta que no importa si es a la izquierda o la derecha, la distancia es el valor absoluto de la distancia recorrida máxima al finalizar los movimientos.
